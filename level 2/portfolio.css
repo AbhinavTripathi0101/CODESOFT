@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #825d54, #a77d5e); /* Gradient background */
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 2em;
+    background: rgba(127, 4, 4, 0.5);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #141203; /* Gold */
+}
+
+header p {
+    font-size: 1.5em;
+    color: #ff69b4; /* Hot pink */
+}
+
+main {
+    padding: 2em;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    border: 5px solid #fff;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #141203;/* Gold */
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #141203; /* Gold */
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #141203; /* Gold */
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    border: 5px solid #fff;
+}
+
+.project h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #ff69b4; /* Hot pink */
+}
+
+.project p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#resume h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color:#141203;/* Gold */
+}
+
+#resume a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+#resume a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color:#141203; /* Gold */
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background: rgba(127, 4, 4, 0.5);
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+    margin-top: 2em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+footer ul li a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
